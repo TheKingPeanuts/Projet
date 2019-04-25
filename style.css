@@ -3,8 +3,13 @@ Commentaires
 
 */
 
-.introduction
+p
 {
-	
-	color: blue;
+	font-size: 14px;
 }
+h1
+{
+	font-size: 40px;
+}
+
+
