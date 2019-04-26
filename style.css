@@ -1,17 +1,78 @@
 /*
 Commentaires
 
+
+
+/*p
+{
+	color : green;
+	font-style: 0.8em;
+	font-family: Impact;
+}
+
 */
+
+
+@font-face {
+	font-family: 'cac_champagneregular';
+	src : url('cac_champagne-webfont.eot');
+	src : url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+		  url('cac_champagne-webfont.woff') format('woff'),
+		  url('cac_champagne-webfont.ttf') format('truetype'),
+		  url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');  	
+
+}
+
+body
+{
+	background-color: blue;
+	color: rgb(22,22,240);
+	background : url("background.jpeg") no-repeat;
+	background-position: 50px 80px;
+}
+
+
+.imageflottante
+{
+
+	float: right;
+}
+
+.dessous
+{
+
+	clear: both;
+}
+
+
+h1
+{
+	font-family: 'cac_champagneregular', Comic sans MS;
+	color : red;
+	font-style: normal;
+	/*font-weight: bold;*/
+	text-decoration: underline;
+	text-align: center;	
+}
 
 p
 {
-	font-size: 0.8em;
-	font-family: Impact;
+	font-style: italic;
+	color: rgb(240,96,204);
+	opacity: 0.8;
+
+
 }
-h1
+
+em
 {
-	font-size: 1.3em;
-	font-family: Comic Sans Ms
+	font-style: normal;
 }
+mark
+{
+	background-color: red;
+	color:green;
+}
+
 
 
