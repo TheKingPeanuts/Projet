@@ -28,7 +28,7 @@ body
 	background-color: blue;
 	color: rgb(22,22,240);
 	background : url("background.jpeg") no-repeat;
-	background-position: 50px 80px;
+	background-position: center;
 }
 
 
@@ -53,6 +53,9 @@ h1
 	/*font-weight: bold;*/
 	text-decoration: underline;
 	text-align: center;	
+	text-shadow: 2px 2px 4px red;
+
+
 }
 
 p
@@ -60,6 +63,8 @@ p
 	font-style: italic;
 	color: rgb(240,96,204);
 	opacity: 0.8;
+	border-radius: 10px;
+
 
 
 }
@@ -74,5 +79,37 @@ mark
 	color:green;
 }
 
+img
+{
+	border: 3px solid black;
+}
 
+.parag
+{
+	border: 3px solid black;
+	border-radius: 10px 50px 50px 10px;	
+	box-shadow: 6px 6px 6px black;
+}
 
+a
+{
+	text-decoration: none;
+	color: red;
+	font-style: italic;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: green;
+}
+
+a:focus
+{
+	background-color: #FFCC66;
+}
+
+a:visited
+{
+	color: #AAA;
+}
