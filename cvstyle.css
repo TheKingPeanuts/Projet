@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'atari';
+	src : url('polices/atari.ttf');
+
+}
+body
+{
+	background-image: url(images/background.jpeg);
+	height: 100%;
+}
+
+.entete
+{
+	border: 3px solid black;
+}
+
+h1
+{
+	color : grey;
+	text-align: left;
+	text-shadow: 1px 2px 3px;
+
+}
+h2
+{
+	font-family: 'atari';
+}
+
+
+
+
